@@ -1,87 +1,101 @@
-#  TrustLoop — Verified Volunteer Execution Platform
+# TrustLoop — AI-Powered Verified Volunteer Execution Platform
 
-TrustLoop is a **B2B SaaS platform for NGOs, CSR teams, and social organizations** to manage, verify, and track volunteer-driven community work.
-
-Unlike traditional volunteer platforms, TrustLoop focuses on **execution, accountability, and measurable impact**, not just task listing.
+TrustLoop is a B2B SaaS platform for NGOs and social organizations to **convert community needs into actionable missions and ensure real-world execution with accountability and impact tracking.**
 
 ---
 
 ## 🌍 Problem
 
-Organizations face major challenges in volunteer operations:
+NGOs and social organizations collect a large amount of community data through surveys and field reports, but:
 
-* Scattered and unstructured community needs data
-* Low volunteer reliability
-* Fake or incomplete task completion
-* Lack of accountability
-* Poor impact reporting
+- Data is scattered and unstructured
+- Volunteers are hard to coordinate
+- Task completion is unreliable or unverifiable
+- Impact is difficult to measure
+- No centralized system for execution tracking
+
+👉 The real challenge is not identifying problems — it's **ensuring help actually reaches people.**
 
 ---
 
 ## 💡 Solution
 
-TrustLoop transforms raw community needs into **structured, verifiable missions**.
-
-It enables organizations to:
-
-* Create and assign missions
-* Track real-time execution
-* Verify proof-of-work
-* Measure impact through analytics
-* Monitor volunteer trust and reliability
+TrustLoop transforms raw community data into **structured, actionable missions using AI**, and enables organizations to track execution and impact in real-time.
 
 ---
 
 ## ✨ Key Features
 
-###  NGO Dashboard
+### 🧠 AI-Powered Workflow
+- **Need Summarization (Gemini API)**  
+  Converts raw NGO reports into structured insights
 
-* Mission creation and management
-* Verification queue for proof submissions
-* Volunteer reliability insights (trust score, completion rate)
-* Analytics and reporting dashboard
-
-###  Volunteer Experience
-
-* Browse and accept missions
-* Track active and completed work
-* Submit proof (image + timestamp + geo-tag simulation)
-* View trust score and impact hours
-* Download participation certificate
-
-###  AI-Assisted Features (Mocked)
-
-* **Need Summarization**
-
-  * Converts raw field reports into structured insights
-* **Mission Draft Generation**
-
-  * Auto-generates mission title, description, and requirements
-
-> Note: AI responses are mocked for prototype stability and can be replaced with real APIs.
+- **Mission Draft Generation (Gemini API)**  
+  Automatically creates execution-ready missions
 
 ---
 
-##  Tech Stack
-
- **Frontend:** React + Vite, **Styling:** Tailwind CSS, **Routing:** React Router, **Icons:** Lucide React, **State:** Local state (prototype-level)
+### 🏢 NGO Dashboard
+- Create and manage missions
+- Generate missions using AI
+- Save missions to database
+- View all missions in centralized dashboard
 
 ---
 
-##  Pages Included
+### 🙋 Volunteer System (UI Prototype)
+- Browse and accept missions
+- Track progress
+- Submit proof of work (simulated)
+- View trust score and contributions
 
-* Login Page
-* Role Selection
-* NGO Dashboard
-* Mission Management
-* Verification Queue
-* Analytics / Reports
-* AI Hub
-* Volunteer Dashboard
-* Mission Detail
-* My Missions
-* Trust Profile
-* Certificate Page
+---
+
+### 📊 Data & Persistence
+- **Firebase Firestore Integration**
+  - Stores generated missions
+  - Enables centralized tracking
+  - Provides real backend functionality
+
+---
+
+## 🔄 End-to-End Flow
+
+1. NGO pastes raw field report  
+2. AI summarizes the need  
+3. AI generates a mission draft  
+4. Mission is saved to Firebase  
+5. Missions are visible in dashboard  
+
+👉 From **data → AI → execution → tracking**
+
+---
+
+## 🛠 Tech Stack
+
+- **Frontend:** React + Vite  
+- **Styling:** Tailwind CSS  
+- **Routing:** React Router  
+- **Icons:** Lucide React  
+- **Backend / Database:** Firebase Firestore  
+- **AI:** Google Gemini API  
+- **Deployment:** Firebase Hosting  
+
+---
+
+## 📄 Pages Included
+
+- Login Page  
+- Role Selection  
+- NGO Dashboard  
+- AI Hub  
+- Mission Management  
+- My Missions (Firebase-connected)  
+- Verification Queue  
+- Analytics Dashboard  
+- Volunteer Dashboard  
+- Mission Detail  
+- Certificate Page  
 
 ---
 
@@ -103,28 +117,9 @@ npm run dev
 
 ## 🌐 Live Demo
 
-👉 (https://trustloop-amber.vercel.app/)
-
----
+👉 (https://trustloop-1c7d0.web.app)
 
 
-##  Notes
-
-* This is a **Phase 1 prototype (UI + flow focused)**
-* No real backend or database integration
-* AI functionality is simulated (mocked responses)
-* Designed for hackathon purposes
-
----
-
-## Future Scope
-
-* Real AI integration (OpenAI / Claude / Gemini)
-* Backend with authentication and database
-* Real-time mission tracking
-* Advanced trust score algorithm
-* Volunteer recommendation system
-* Proof validation using AI
 
 ---
 
