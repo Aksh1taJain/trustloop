@@ -1,6 +1,6 @@
 # TrustLoop — AI-Powered Verified Volunteer Execution Platform
 
-TrustLoop is a B2B SaaS platform for NGOs and social organizations to **convert community needs into actionable missions and ensure real-world execution with accountability and impact tracking.**
+TrustLoop is a platform for NGOs and social organizations to **convert community needs into actionable missions and ensure real-world execution with accountability and impact tracking.**
 
 ---
 
